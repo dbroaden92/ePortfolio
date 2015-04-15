@@ -8,17 +8,24 @@
 </head>
 <body>
 <div id="header" class="header">
-    <table>
-        <tr>
-            <td class="header_name">Devin Broaden</td>
-            <td> | </td>
-            <td class="header_button"><a onclick="scroll('#about', '#page');">About</a></td>
-            <td class="header_button"><a onclick="scroll('#resume', '#page');">Resume</a></td>
-            <td class="header_button"><a onclick="scroll('#internships', '#page');">Internships</a></td>
-            <td class="header_button"><a onclick="scroll('#projects', '#page');">Projects</a></td>
-        </tr>
-    </table>
+    <div id="nav_bar" class="nav_bar">
+        <div class="header_name">Devin Broaden</div>
+        <div class="vertical_divider">|</div>
+        <div class="header_button" onclick="scroll('#about', '#page');">
+            <span>About</span>
+        </div>
+        <div class="header_button" onclick="scroll('#resume', '#page');">
+            <span>Resume</span>
+        </div>
+        <div class="header_button" onclick="scroll('#internships', '#page');">
+            <span>Internships</span>
+        </div>
+        <div class="header_button" onclick="scroll('#projects', '#page');">
+            <span>Projects</span>
+        </div>
+    </div>
 </div>
+    <div id="divider" class="divider"></div>
 
 <div id="page" class="page">
 
@@ -44,7 +51,7 @@
         <table>
             <tr>
                 <td class="logo"><img src="data/google_logo.png" width=50px height=50px></td>
-                <td class="company"><h2>Google, Inc</h2></td>
+                <td class="company"><h2>Google</h2></td>
             </tr>
         </table>
         <p>
